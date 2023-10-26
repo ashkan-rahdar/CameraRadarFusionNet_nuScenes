@@ -1,0 +1,21 @@
+installing environment with python 3.7
+
+~ conda install git graphviz
+~ cd .\Desktop\CameraRadarFusionNet-master\crfnet\
+~ python.exe -m pip install --upgrade pip setuptools wheel
+~ pip install cython
+~ conda install hdf5
+
+changing h5py version in requirements to 2.10.0
+
+~ pip install -e .\
+~ python -m pip install --upgrade pip
+~ pip install setuptools==58.2.0
+~ python setup.py build_ext --inplace
+~ conda install -c conda-forge docker=19.03
+~ conda install -c anaconda cudatoolkit=10.0
+~ conda install cudnn
+~ conda install pygpu
+~ conda install protobuf=3.20
+~ git rev-parse --verify HEAD
+~ conda install -c conda-forge pickle5

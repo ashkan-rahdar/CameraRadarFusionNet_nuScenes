@@ -685,6 +685,7 @@ if __name__ == "__main__":
     if 'mini' in cfg.data_set:
         nusc = NuScenes(version='v1.0-mini', dataroot=cfg.data_path, verbose=True)
     else:
+        print("fuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuck")
         try:
             nusc = NuScenes(version='v1.0-trainval', dataroot=cfg.data_path, verbose=True)
         except:
